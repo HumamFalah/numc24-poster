@@ -64,8 +64,8 @@
     }
 
     .logo{
-      width:200px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin:auto;
       margin-bottom:20px;
       border:3px solid #c89b3c;
@@ -254,32 +254,55 @@
 
     @media(max-width:900px){
 
+      body{
+        overflow-x:hidden;
+      }
+
       h1{
-        font-size:46px;
+        font-size:34px;
       }
 
       .college{
-        font-size:32px;
+        font-size:26px;
       }
 
       .dept{
+        font-size:20px;
+      }
+
+      .logo{
+        width:95px;
+        height:95px;
         font-size:24px;
       }
 
       .class-badge{
-        font-size:22px;
+        font-size:18px;
+        padding:14px 24px;
       }
 
       .title-text{
-        font-size:34px;
+        font-size:28px;
       }
 
       .supervisor-name{
-        font-size:24px;
+        font-size:20px;
       }
 
       .participant{
-        font-size:18px;
+        font-size:15px;
+        padding:12px 8px;
+        border-radius:14px;
+      }
+
+      .participants-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:12px;
+        padding:18px;
+      }
+
+      .card{
+        padding:22px;
       }
 
       .hero{
@@ -330,17 +353,17 @@
 
         <div class="supervisor-box">
           <div class="supervisor-icon">👤</div>
-          <div class="supervisor-name">م.م. سيف الدين الطائي</div>
+          <div class="supervisor-name">د. سيف الدين الطائي</div>
         </div>
 
         <div class="supervisor-box">
           <div class="supervisor-icon">👤</div>
-          <div class="supervisor-name">م.م. محمد سعدون الطائي</div>
+          <div class="supervisor-name">أ.م. محمد سعدون الطائي</div>
         </div>
 
         <div class="supervisor-box">
           <div class="supervisor-icon">👤</div>
-          <div class="supervisor-name">م.م. عبدالوهاب إبراهيم</div>
+          <div class="supervisor-name">أ.م. عبدالوهاب إبراهيم</div>
         </div>
 
       </div>
@@ -459,8 +482,6 @@
         <div class="participant">محمد علي حردان</div>
         <div class="participant">يوسف احمد حسن</div>
 
-
-        <!-- أضف باقي الأسماء هنا -->
 
       </div>
 
